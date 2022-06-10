@@ -1,0 +1,16 @@
+.field {
+    display: grid;
+    grid-template-columns: repeat(50, 20px);
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    border: solid 1px black;
+    background-color: white;
+}
+
+.alive {
+    background-color: gray;
+}
+
